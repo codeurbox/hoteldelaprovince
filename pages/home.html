@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel De La Province</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/index-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;200;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="flex jus-sb ali-center ht-50 bg-blue pd-100-0 pd-30">
+        <div class="flex ali-center gp-50 gp-30">
+            <div class="flex ali-center gp-20 gp-10">
+                <span class="material-symbols-outlined cl-white cur-pointer" id="contact-show">
+                    call
+                </span>
+                <h4 class="cl-white dp-none" id="contact">+243 856 879 345</h4>
+            </div>
+            <div class="flex ali-center gp-20">
+                <span class="material-symbols-outlined cl-white cur-pointer" id="mail-show">
+                    mail
+                </span>
+                <h4 class="cl-white dp-none" id="mail">info.support@hoteldelaprovince.com</h4>
+            </div>
+        </div>
+        <div class="flex ali-center gp-30">
+            <a href="#"><img src="../images/facebook-svgrepo-com.svg" alt="Facebook" class="wt-20 inv-100"></a>
+            <a href="#"><img src="../images/twitter-154-svgrepo-com.svg" alt="Twitter" class="wt-20 inv-100"></a>
+            <a href="#"><img src="../images/instagram-svgrepo-com.svg" alt="Instagram" class="wt-20 inv-100"></a>
+        </div>
+    </div>
+    <div class="nav flex jus-sb ali-center ht-10vh bg-white pd-100-0 pd-30">
+        <a href="../pages/home.html" class="main-brand mg-top-20"><img src="../images/logo.png"
+                alt="Hotel De La Province" class="wt-150"></a>
+        <nav class="flex ali-center gp-30 dp-none">
+            <a href="reservation-search.html"
+                class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Reservations</a>
+            <a href="services.html" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Services</a>
+            <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Contact</a>
+            <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">A propos de nous</a>
+        </nav>
+        <a href="directReservation.html"
+            class="flex ali-center gp-20 txt-dec-none cl-white ht-100p bg-orange pd-20 dp-none">
+            <h4>Reservez Directement</h4><span class="material-symbols-outlined">
+                arrow_right_alt
+            </span>
+        </a>
+        <div class="pd-20 bg-green brd-rds-100p flex jus-center ali-center -dp-none cur-pointer" id="menu-btn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="pst-fix wt-100p ht-100vh top-0 left-0 bg-trn-black dp-click z-ind-2" id="black-filter"></div>
+        <div class="flex col-flex pst-fix top-0 left-0 gp-30 bg-white pd-20 dp-click z-ind-2" id="menu">
+            <span class="material-symbols-outlined pd-20 cur-pointer bg-red wt-fit brd-rds-100p" id="close-menu">
+                close
+            </span>
+            <nav class="flex col-flex gp-1">
+                <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue pd-10 bg-gray wt-100p">Faite
+                    la
+                    Visite</a>
+                <a href="#"
+                    class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue pd-10 bg-gray wt-100p">Contact</a>
+            </nav>
+            <a href="directReservation.html"
+                class="flex ali-center gp-20 txt-dec-none cl-white ht-100 bg-blue pd-20 brd-rds-50">
+                <h4>Reservez Directement</h4><span class="material-symbols-outlined">
+                    arrow_right_alt
+                </span>
+            </a>
+        </div>
+    </div>
+    <main>
+        <div class="flex col-flex jus-center ali-center wt-100p ht-70vh pst-rel gp-30">
+            <img src="../images/banner.jpg" class="wt-100p ht-100p obj-fit pst-abs">
+            <div class="pst-abs wt-100p ht-100p top-0 left-0 bg-trn-blue"></div>
+            <h4 class=" z-ind-1 cl-white txt-alg-center">Hôtel De La Province.</h4>
+            <h1 class="main-text z-ind-1 cl-white txt-alg-center pd-100-0 fnt-2em">Une reference qui combine Sécurité et
+                Confort!</h1>
+            <a href="roomlist.html"
+                class="pd-30 z-ind-1 txt-dec-none cl-white brd-blue pd-20-40 fnt-wht-bold rds-hvr tran">Faitez
+                la
+                visite</a>
+        </div>
+        <div class="flex jus-center ali-center">
+            <form method="post" class="flex col-flex gp-20 bg-white box-shd-gray mg-top--100 z-ind-1 pd-20 brd-rds-2">
+                <h4 class="txt-alg-center">Vérifier la disponibilité.</h4>
+                <div class="flex ali-end gp-20 flx-wrp">
+                    <div class="flex col-flex gp-20">
+                        <label class="fnt-wht-bold">Entree</label>
+                        <input type="date" class="pd-10 brd-gray otl-blue brd-rds-2">
+                    </div>
+                    <div class="flex col-flex gp-20">
+                        <label class="fnt-wht-bold">Sortie</label>
+                        <input type="date" class="pd-10 brd-gray otl-blue brd-rds-2">
+                    </div>
+                    <div class="flex col-flex gp-20">
+                        <label class="fnt-wht-bold">Chambre</label>
+                        <select class="pd-10 brd-gray otl-blue wt-fit bg-white brd-rds-2">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                        </select>
+                    </div>
+                    <div class="flex col-flex gp-20">
+                        <label class="fnt-wht-bold">Adulte(s)</label>
+                        <select class="pd-10 brd-gray otl-blue wt-fit bg-white brd-rds-2">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                        </select>
+                    </div>
+                    <div class="flex col-flex gp-20">
+                        <label class="fnt-wht-bold">Enfant(s)</label>
+                        <select class="pd-10 brd-gray otl-blue wt-fit bg-white brd-rds-2">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Vérifier la disponibilité"
+                        class="pd-20-40 bdr-none bg-blue cl-white txt-dec-none fnt-wht-bold cur-pointer-2 brd-rds-2 ht-fit">
+                </div>
+            </form>
+        </div>
+        <div
+            class="flex wt-100p-2 mrg-auto txt-line-20 col-flex gp-200 mg-bot-100 go-wt-100p-2 gp-50 go-pd-20 pd-0-200">
+            <h1 class="txt-alg-center mg-top-50">Bienvenue à l'Hôtel de la Province</h1>
+            <div class="flex gp-30 go-col-flex wrap">
+                <img class="wt-100p go-wt-100p-2" src="../images/banner.jpg" alt="">
+                <div class="flex col-flex gp-30">
+                    <h1>Une de Meilleur hotel de la region</h1>
+                    <p>Votre oasis de détente et de confort ! Chers Client, Nous
+                        sommes ravis
+                        de vous accueillir à l'Hôtel de la Province, votre nouveau chez-vous loin de chez vous. Que vous
+                        soyez
+                        ici
+                        pour affaires, pour explorer les merveilles de notre région ou simplement pour vous détendre,
+                        nous
+                        sommes
+                        déterminés à faire de votre séjour une expérience inoubliable. À l'Hôtel de la Province, nous
+                        croyons
+                        que le
+                        confort, le luxe et le service personnalisé sont les éléments essentiels d'une expérience
+                        hôtelière
+                        exceptionnelle.</p>
+                    <div class="flex ali-center gp-50 go-jus-sb go-gp-0">
+                        <a href="../pages/roomlist.html" class="txt-dec-none cl-black pd-20-40 brd-blue no-wrap">Faitez
+                            la visite</a>
+                        <a href="#" class="txt-dec-none cl-white pd-20-40 bg-black no-wrap">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gp-30 go-col-flex wrap">
+                <img class="wt-100p go-wt-100p-2" src="../images/1.jpg" alt="">
+                <div class="flex col-flex gp-30">
+                    <h1>Un Éventail de Services d'Exception</h1>
+                    <p>Niché au cœur de la charmante région provinciale, l'Hôtel de la Province offre bien plus qu'un
+                        simple hébergement ; c'est une expérience complète de confort, de luxe et de services sur
+                        mesure. Notre établissement se distingue par la variété exceptionnelle de services que nous
+                        mettons à la disposition de nos clients, visant à répondre à toutes leurs attentes et à rendre
+                        leur séjour inoubliable.</p>
+                    <div class="flex ali-center gp-50">
+                        <a href="services.html" class="txt-dec-none cl-white pd-20-40 bg-black">Explorez les
+                            services</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="flex ali-start gp-50 bg-blue pd-50-100 go-col-flex go-ali-start go-pd-20 col-flex">
+        <div class="flex ali-start gp-50 go-col-flex go-ali-start go-pd-20">
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">CONTACT</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            location_on
+                        </span>
+                        <span class="cl-white">DRC, Ituri, Bunia</span>
+                    </div>
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            phone
+                        </span>
+                        <span class="cl-white">+243 856 879 345</span>
+                    </div>
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            mail
+                        </span>
+                        <span class="cl-white">info.support@hoteldelaprovince.com</span>
+                    </div>
+                    <div class="flex ali-center gp-30">
+                        <a href="#"><img src="../images/facebook-svgrepo-com.svg" alt="Facebook"
+                                class="wt-20 inv-100"></a>
+                        <a href="#"><img src="../images/twitter-154-svgrepo-com.svg" alt="Twitter"
+                                class="wt-20 inv-100"></a>
+                        <a href="#"><img src="../images/instagram-svgrepo-com.svg" alt="Instagram"
+                                class="wt-20 inv-100"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">HOTEL</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Contact</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Services</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Chambres</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">Services</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Restauration</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Salle de reunion</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Salle de fete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="flex jus-sb mg-top-50 ali-center cl-white brd-top-white wt-100p pd-20-0 go-ali-center go-col-flex gp-30">
+            <p>@<a href="#" class=" cl-white">Hotel de la province</a>, copyright.</p>
+            <div class="flex ali-center gp-30">
+                <a href="#" class="txt-dec-none cl-white">Accueil</a>
+                <a href="#" class="txt-dec-none cl-white">Aide</a>
+                <a href="#" class="txt-dec-none cl-white">FQAS</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../script/click-handle.js"></script>
+    <script src="../script/menu-handle.js"></script>
+</body>
+
+</html>

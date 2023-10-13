@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-height: 80vh;
+    margin-bottom: 100px;
+}
+
+.pd-100-0 {
+    padding: 0px 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.jus-sb {
+    justify-content: space-between;
+}
+
+.ali-center {
+    align-items: center;
+}
+
+.ht-50 {
+    height: 50px;
+}
+
+.bg-blue {
+    background-color: #3590F3;
+}
+
+.gp-50 {
+    gap: 50px;
+}
+
+.gp-30 {
+    gap: 30px;
+}
+
+.gp-20 {
+    gap: 20px;
+}
+
+.cl-white {
+    color: #FFFF;
+}
+
+.cl-gray {
+    color: rgb(53, 53, 80);
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.cl-black {
+    color: #000000;
+}
+
+.wt-20 {
+    width: 20px;
+}
+
+.wt-150 {
+    width: 100px;
+}
+
+.wt-700 {
+    width: 700px;
+}
+
+.mg-top-20 {
+    margin-top: 15px;
+}
+
+.fnt-wht-bold {
+    font-weight: bold;
+}
+
+.ht-10vh {
+    height: 10vh;
+}
+
+.inv-100 {
+    filter: invert(100%);
+}
+
+.txt-dec-none {
+    text-decoration: none;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.tran {
+    transition: all 0.5s ease;
+}
+
+.hover-fnt-blue:hover {
+    color: #3590F3;
+}
+
+.ht-100p {
+    height: 100%;
+}
+
+.bg-orange {
+    background-color: #F18F01;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.bg-green {
+    background-color: #64F58D;
+}
+
+.brd-rds-100p {
+    border-radius: 100%;
+}
+
+.jus-center {
+    justify-content: center;
+}
+
+.-dp-none {
+    display: none;
+}
+
+.col-flex {
+    flex-direction: column;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.bg-gray {
+    background-color: #e8e8e8;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.wt-100p {
+    width: 100%;
+}
+
+.gp-1 {
+    gap: 1px;
+}
+
+.brd-rds-50 {
+    border-radius: 50px;
+}
+
+.brd-rds-20 {
+    border-radius: 20px;
+}
+
+.pst-abs {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.dp-click {
+    display: none;
+}
+
+.bg-red {
+    background-color: #fd1947;
+}
+
+.cl-red {
+    color: rgb(255, 0, 89);
+}
+
+.cl-blue {
+    color: #3590F3;
+}
+
+.cl-green {
+    color: #64F58D;
+}
+
+.brd-green {
+    border: 1px solid #64F58D;
+}
+
+.brd-red {
+    border: 1px solid rgb(255, 0, 89);
+}
+
+.room-descrp img {
+    width: 25px;
+}
+
+.gp-10 {
+    gap: 10px;
+}
+
+.wt-fit {
+    width: fit-content;
+}
+
+.pst-fix {
+    position: fixed;
+}
+
+.ht-100vh {
+    height: 100vh;
+}
+
+.bg-trn-black {
+    background-color: #0000009a;
+}
+
+.ht-70vh {
+    height: 90vh;
+}
+
+.obj-fit {
+    object-fit: cover;
+}
+
+.bg-trn-blue {
+    background-color: #002246a5;
+}
+
+.pst-rel {
+    position: relative;
+}
+
+.z-ind-0 {
+    z-index: 0;
+}
+
+.z-ind-1 {
+    z-index: 1;
+}
+
+.z-ind-2 {
+    z-index: 2;
+}
+
+.main-text {
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.txt-alg-center {
+    text-align: center;
+}
+
+.brd-blue {
+    border: 2px solid #3590F3;
+}
+
+.pd-20-40 {
+    padding: 20px 40px;
+}
+
+.rds-hvr:hover {
+    border-radius: 50px;
+}
+
+.flx-wrp {
+    flex-wrap: wrap;
+}
+
+.brd-gray {
+    border: 1px solid #e3e3e3;
+}
+
+.pd-50 {
+    padding: 50px;
+}
+
+.box-shd-gray {
+    box-shadow: 0px 10px 20px #757575ac;
+}
+
+.mg-top--100 {
+    margin-top: -50px;
+}
+
+.bdr-none {
+    border: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+.cur-pointer-2 {
+    cursor: pointer;
+}
+
+.brd-rds-2 {
+    border-radius: 2px;
+}
+
+.ht-fit {
+    height: fit-content;
+}
+
+.ali-end {
+    align-items: end;
+}
+
+.wt-60p {
+    width: 60%;
+}
+
+.mrg-auto {
+    margin: auto;
+}
+
+.txt-line-20 {
+    line-height: 30px;
+}
+
+.pd-50-100 {
+    padding: 50px 100px;
+}
+
+.ali-start {
+    align-items: start;
+}
+
+.cl-aqua {
+    color: aqua;
+}
+
+.wt-500 {
+    width: 550px;
+}
+
+.gp-50 {
+    gap: 50px;
+}
+
+.mg-top-50 {
+    margin-top: 50px;
+}
+
+.pd-0-200 {
+    padding: 0px 200px;
+}
+
+.mg-bot-100 {
+    margin-bottom: 100px;
+}
+
+.brd-top-white {
+    border-top: 1px solid #e8e8e84d;
+}
+
+.pd-20-0 {
+    padding: 20px 0px;
+}
+
+.room-image {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.room-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ratestart img {
+    width: 30px;
+}
+
+.small-image {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.small-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageList {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.dash {
+    width: 30px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.reservform input,
+select {
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+}
+
+.card-images img {
+    width: 50px;
+}
+
+.receipt {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.receipt>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.receipt>div>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.receipt>div>div>span:first-child {
+    color: gray;
+}
+
+.receipt a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.receipt button {
+    display: flex;
+    gap: 10px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #3590F3;
+    color: #ffffff;
+    align-items: center;
+}
+
+.receipt button img {
+    width: 30px;
+}
+
+.title div {
+    width: 100px;
+    height: 2px;
+    background-color: #F18F01;
+    border-radius: 2px;
+}
+
+.title {
+    color: #F18F01;
+    margin: auto;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.service-list>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    border: 1px solid rgb(203, 203, 203);
+    height: 300px;
+    border-radius: 5px;
+}
+
+.service-list>div img {
+    width: 50px;
+}

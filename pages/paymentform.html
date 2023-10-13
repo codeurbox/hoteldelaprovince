@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel De La Province</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/index-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;200;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="flex jus-sb ali-center ht-50 bg-blue pd-100-0 pd-30">
+        <div class="flex ali-center gp-50 gp-30">
+            <div class="flex ali-center gp-20 gp-10">
+                <span class="material-symbols-outlined cl-white cur-pointer" id="contact-show">
+                    call
+                </span>
+                <h4 class="cl-white dp-none" id="contact">+243 856 879 345</h4>
+            </div>
+            <div class="flex ali-center gp-20">
+                <span class="material-symbols-outlined cl-white cur-pointer" id="mail-show">
+                    mail
+                </span>
+                <h4 class="cl-white dp-none" id="mail">info.support@hoteldelaprovince.com</h4>
+            </div>
+        </div>
+        <div class="flex ali-center gp-30">
+            <a href="#"><img src="../images/facebook-svgrepo-com.svg" alt="Facebook" class="wt-20 inv-100"></a>
+            <a href="#"><img src="../images/twitter-154-svgrepo-com.svg" alt="Twitter" class="wt-20 inv-100"></a>
+            <a href="#"><img src="../images/instagram-svgrepo-com.svg" alt="Instagram" class="wt-20 inv-100"></a>
+        </div>
+    </div>
+    <div class="nav flex jus-sb ali-center ht-10vh bg-white pd-100-0 pd-30">
+        <a href="../pages/home.html" class="main-brand mg-top-20"><img src="../images/logo.png"
+                alt="Hotel De La Province" class="wt-150"></a>
+        <nav class="flex ali-center gp-30 dp-none">
+            <a href="reservation-search.html"
+                class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Reservations</a>
+            <a href="services.html" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Services</a>
+            <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">Contact</a>
+            <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue">A propos de nous</a>
+        </nav>
+        <a href="directReservation.html"
+            class="flex ali-center gp-20 txt-dec-none cl-white ht-100p bg-orange pd-20 dp-none">
+            <h4>Reservez Directement</h4><span class="material-symbols-outlined">
+                arrow_right_alt
+            </span>
+        </a>
+        <div class="pd-20 bg-green brd-rds-100p flex jus-center ali-center -dp-none cur-pointer" id="menu-btn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+        <div class="pst-fix wt-100p ht-100vh top-0 left-0 bg-trn-black dp-click z-ind-2" id="black-filter"></div>
+        <div class="flex col-flex pst-fix top-0 left-0 gp-30 bg-white pd-20 dp-click z-ind-2" id="menu">
+            <span class="material-symbols-outlined pd-20 cur-pointer bg-red wt-fit brd-rds-100p" id="close-menu">
+                close
+            </span>
+            <nav class="flex col-flex gp-1">
+                <a href="#" class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue pd-10 bg-gray wt-100p">Faite
+                    la
+                    Visite</a>
+                <a href="#"
+                    class="txt-dec-none cl-black fnt-wht-bold tran hover-fnt-blue pd-10 bg-gray wt-100p">Contact</a>
+            </nav>
+            <a href="directReservation.html"
+                class="flex ali-center gp-20 txt-dec-none cl-white ht-100 bg-blue pd-20 brd-rds-50">
+                <h4>Reservez Directement</h4><span class="material-symbols-outlined">
+                    arrow_right_alt
+                </span>
+            </a>
+        </div>
+    </div>
+    <main>
+        <div class="pd-0-200 mg-top-50 flex col-flex reservform gp-30 go-pd-20">
+            <div class="flex gp-20 ali-center">
+                <a href="directReservation.html" class="txt-dec-none cl-black">Formulaire</a>
+                <div class="dash"></div>
+                <a href="paymentform.html" class="txt-dec-none cl-blue">Payaiment</a>
+                <div class="dash"></div>
+                <a href="summary.html" class="txt-dec-none cl-black">Resume</a>
+            </div>
+            <h1>Payaiment</h1>
+            <form action="" method="post" class="flex col-flex gp-20">
+                <div class="flex col-flex gp-20">
+                    <div class="flex ali-center gp-20">
+                        <input type="radio">
+                        <p>Payer Cash lors de l'arrivee</p>
+                    </div>
+                    <p class="cl-red">Note: passe le delais, la reservations sera annule</p>
+                </div>
+                <div class="flex col-flex gp-20">
+                    <div class="flex gp-30 ali-center">
+                        <h4>Payer avec: </h4>
+                        <div class="flex ali-center gp-30 card-images">
+                            <img src="../images/visa-logo.jpg">
+                            <img src="../images/mclogo.svg">
+                        </div>
+                    </div>
+
+                    <div class="flex gp-10 wrap col-flex wt-100p">
+                        <input type="email" placeholder="Email*" required>
+                        <input type="text" placeholder="Numero de cart*" required>
+                        <div class="flex gp-10 wt-100p wrap">
+                            <input type="text" placeholder="Date d'expiration" required>
+                            <input type="text" placeholder="CVV" required>
+                        </div>
+
+                    </div>
+                </div>
+                <input type="submit" value="Payer" class="cur-pointer">
+            </form>
+        </div>
+    </main>
+    <footer class="flex ali-start gp-50 bg-blue pd-50-100 go-col-flex go-ali-start go-pd-20 col-flex">
+        <div class="flex ali-start gp-50 go-col-flex go-ali-start go-pd-20">
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">CONTACT</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            location_on
+                        </span>
+                        <span class="cl-white">DRC, Ituri, Bunia</span>
+                    </div>
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            phone
+                        </span>
+                        <span class="cl-white">+243 856 879 345</span>
+                    </div>
+                    <div class="flex gp-20 ali-end ">
+                        <span class="material-symbols-outlined cl-white">
+                            mail
+                        </span>
+                        <span class="cl-white">info.support@hoteldelaprovince.com</span>
+                    </div>
+                    <div class="flex ali-center gp-30">
+                        <a href="#"><img src="../images/facebook-svgrepo-com.svg" alt="Facebook"
+                                class="wt-20 inv-100"></a>
+                        <a href="#"><img src="../images/twitter-154-svgrepo-com.svg" alt="Twitter"
+                                class="wt-20 inv-100"></a>
+                        <a href="#"><img src="../images/instagram-svgrepo-com.svg" alt="Instagram"
+                                class="wt-20 inv-100"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">HOTEL</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Contact</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Services</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Chambres</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Reservation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex col-flex ali-start gp-30">
+                <h1 class="cl-white fnt-wht-bold">Services</h1>
+                <div class="flex col-flex gp-20">
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Restauration</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Salle de reunion</a>
+                    </div>
+                    <div class="flex ali-center gp-10 cl-white">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                        <a href="#" class="txt-dec-none cl-white">Salle de fete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="flex jus-sb mg-top-50 ali-center cl-white brd-top-white wt-100p pd-20-0 go-ali-center go-col-flex gp-30">
+            <p>@<a href="#" class=" cl-white">Hotel de la province</a>, copyright.</p>
+            <div class="flex ali-center gp-30">
+                <a href="#" class="txt-dec-none cl-white">Accueil</a>
+                <a href="#" class="txt-dec-none cl-white">Aide</a>
+                <a href="#" class="txt-dec-none cl-white">FQAS</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../script/click-handle.js"></script>
+    <script src="../script/menu-handle.js"></script>
+</body>
+
+</html>

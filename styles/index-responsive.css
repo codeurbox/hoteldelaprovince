@@ -1,0 +1,61 @@
+@media (width < 1088px) {
+    .dp-none {
+        display: none;
+    }
+
+    .-dp-none {
+        display: flex;
+    }
+
+    .pd-30 {
+        padding: 20px;
+    }
+
+    .gp-20 {
+        gap: 20px;
+    }
+
+    .gp-10 {
+        gap: 10px;
+    }
+
+    .cur-pointer {
+        cursor: pointer;
+    }
+
+    .fnt-2em {
+        font-size: 2em;
+    }
+
+    .go-wt-100p-2 {
+        width: 100%;
+    }
+
+    .go-col-flex {
+        flex-direction: column;
+    }
+
+    .go-pd-20 {
+        padding: 20px;
+    }
+
+    .go-ali-start {
+        align-items: self-start;
+    }
+
+    .go-ali-center {
+        align-items: center;
+    }
+
+    .go-text-align-center {
+        text-align: center;
+    }
+
+    .go-jus-sb {
+        justify-content: space-between;
+    }
+
+    .go-gp-0 {
+        gap: 0px;
+    }
+}
